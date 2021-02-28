@@ -70,7 +70,7 @@ def draw_server_result(image_file, res):
 
 def main(url, image_path):
     image_file_list = get_image_file_list(image_path)
-    is_visualize = False
+    is_visualize = True
     headers = {"Content-type": "application/json"}
     cnt = 0
     total_time = 0
